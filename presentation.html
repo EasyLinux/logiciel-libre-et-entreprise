@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Ophir LOJKINE">
+  <title>Logiciel libre et entreprise</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js//css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js//css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'http://lab.hakim.se/reveal-js//css/print/pdf.css' : 'http://lab.hakim.se/reveal-js//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="http://lab.hakim.se/reveal-js//lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Logiciel libre et entreprise</h1>
+  <h1 class="subtitle"><p>Le logiciel en entreprise: définition, marché, évolution, enjeux.</p></h1>
+  <h2 class="author">Ophir LOJKINE</h2>
+  <h3 class="date">Février 2017</h3>
+</section>
+
+<section><section id="introduction" class="titleslide slide level1"><h1>Introduction</h1></section><section id="introduction-1" class="slide level2">
+<h1>Introduction</h1>
+<h3 id="logiciel-libre">Logiciel libre</h3>
+<p>On appelle <em>logiciel libre</em> une grande famille de logiciels souvent gratuits, mal connus, et qui ont parfois la réputation d'être à l'opposé du monde l'entreprise.</p>
+<h3 id="quen-est-il-vraiment">Qu'en est-il vraiment ?</h3>
+<p>Nous allons essayer ici de comprendre ce qu'ils sont, quel est leur usage réel en entreprise aujourd'hui, et quels sont les coûts, les risques, et les opportunités apportés par leur adoption.</p>
+</section></section>
+<section><section id="définitions" class="titleslide slide level1"><h1>Définitions</h1></section><section id="logiciel-libre-1" class="slide level2">
+<h1>Logiciel libre</h1>
+<p>Un logiciel libre doit donc être open-source, mais cela ne suffit pas.</p>
+<p>Il <a href="https://www.gnu.org/philosophy/free-sw.html">est défini</a> par quatre libertés fondamentales:</p>
+<ol start="0" type="1">
+<li>liberté d'<strong>utiliser</strong> le logiciel, pour n'importe quel usage,</li>
+<li>liberté d'<strong>étudier</strong> le logiciel (code source disponible),</li>
+<li>liberté de <strong>redistribuer</strong> (gratuitement ou non),</li>
+<li>liberté de <strong>modifier</strong> et de publier ses modifications.</li>
+</ol>
+</section><section id="licence-libre" class="slide level2">
+<h1>Licence libre</h1>
+<p>On appelle <em>licence libre</em> toute licence logicielle qui garantit les libertés sus-mentionnées.</p>
+<p>Deux grands types de licence libre existent :</p>
+<ul>
+<li><em>copyleft</em> : obligation de rendre libre toute modification, toute nouvelle version du logiciel.</li>
+<li><em>permissive</em> : possibilité de créer une version dérivée non-libre.</li>
+</ul>
+</section><section id="conséquences-directes-pour-lentreprise-éditrice" class="slide level2">
+<h1>Conséquences directes pour l'entreprise éditrice</h1>
+<p>Pour une entreprise, créer et diffuser un logiciel libre implique:</p>
+<ul>
+<li>Difficile de vendre plusieurs fois le même logiciel libre: <strong>le premier utilisateur peut redistribuer lui-même le logiciel</strong>, y-compris le revendre.</li>
+<li>Intégrer un petit morceau de code <em>copyleft</em> dans un produit plus grand <strong>oblige à publier l'ensemble</strong> du produit sous une licence <em>copyleft</em>.</li>
+<li>Impossible de tirer de l'argent de ses <strong>brevets logiciels</strong></li>
+<li><strong>Limitation des revenus</strong> que l'on peut tirer de ses utilisateurs: abonnement obligatoire, publicité dans le logiciel, etc. ne sont plus viables.</li>
+<li><strong>Concurrence</strong> accrue (barrière d'entrée dans le marché abaissée)</li>
+</ul>
+</section><section class="slide level2">
+
+<p>Les licences de type copyleft ont inspiré à Steve Ballmer la déclaration suivante:</p>
+<blockquote>
+<p>Linux is a cancer that attaches itself in an intellectual property sense to everything it touches. That's the way that the license works.</p>
+</blockquote>
+<blockquote>
+<p><strong>Steve Ballmer</strong>, CEO, Microsoft (1er juin 2001)</p>
+</blockquote>
+</section><section id="conséquences-directes-pour-lentreprise-utilisatrice" class="slide level2">
+<h1>Conséquences directes pour l'entreprise utilisatrice</h1>
+<p>Les libertés garanties sont faites pour protéger l'utilisateur du logiciel, et donc bénéficient directement aux entreprises qui utilisent des logiciels libres.</p>
+<p>Cependant:</p>
+<ul>
+<li>Certains <strong>standards fermés</strong> (formats de fichiers, protocoles de communication) ne sont bien supportés que par les logiciels propriétaires des sociétés qui les créent. L'exemple le plus connu est certainement le format <em>DOCX</em> de Microsoft.</li>
+<li>Parfois, il est plus difficile d'obtenir du <strong>support</strong> pour un logiciel libre.</li>
+<li>Pour les plus petits logiciels libre, <strong>aucune garantie de pérennité</strong> n'est donnée.</li>
+</ul>
+<p><em>Source: <a href="http://www.cio.com/article/2378859/open-source-tools/7-reasons-not-to-use-open-source-software.html">CIO magazine</a></em></p>
+</section></section>
+<section><section id="état-des-lieux" class="titleslide slide level1"><h1>État des lieux</h1></section><section id="logiciels-libres-en-entreprise" class="slide level2">
+<h1>Logiciels libres en entreprise</h1>
+<p>Après les constatations précédentes, on pourrait s'attendre à ce que les entreprises fuient le logiciel libre. <strong>Ce n'est pas ce que l'on observe.</strong></p>
+</section><section id="mais-que-sest-il-passé" class="slide level2">
+<h1>Mais que s'est-il passé ?</h1>
+<figure>
+<img src="https://fortunedotcom.files.wordpress.com/2015/09/satyanadellalinux.jpg?w=300&amp;quality=95" alt="Satya Nadella, CEO de Microsoft, lors d’une conférence en 2015. Photographie de Richard Morgenstein — Microsoft" /><figcaption>Satya Nadella, CEO de Microsoft, lors d’une conférence en 2015. Photographie de Richard Morgenstein — Microsoft</figcaption>
+</figure>
+</section><section id="qui-publie-et-utilise-des-logiciels-libres" class="slide level2">
+<h1>Qui publie et utilise des logiciels libres ?</h1>
+<p>Toutes les entreprises suivantes <strong>éditent</strong> un nombre significatif de logiciels libres, et <strong>affichent publiquement</strong> leur attachement à l'open source:</p>
+<ul>
+<li><a href="https://developers.google.com/open-source/"><strong>Google</strong></a>: <em>Recognizing the vital role that open source software plays at Google, […]</em></li>
+<li><a href="https://opensource.apple.com/"><strong>Apple</strong></a> : <em>Apple continues to both lead and make significant contributions to many Open Source projects</em></li>
+<li><a href="https://code.facebook.com/projects/"><strong>Facebook</strong></a> : <em>open source has been a huge part of our engineering philosophy</em></li>
+<li><a href="https://twitter.github.io/"><strong>Twitter</strong></a>: <em>Twitter is built on open source software.</em></li>
+<li><a href="https://opensource.microsoft.com/resources"><strong>Microsoft</strong></a> (depuis moins longtemps): <em>Microsoft engineers release, contribute to and use open source every day to do great things.</em></li>
+<li><a href="http://www.oracle.com/us/technologies/open-source/overview/index.html"><strong>Oracle</strong></a> : <em>Oracle is clearly embracing and offering leading open source solutions as a viable choice</em></li>
+<li><a href="https://software.intel.com/en-us/open-source"><strong>Intel</strong></a> : <em>Intel Drives the Open Source Spirit Forward</em></li>
+</ul>
+</section><section class="slide level2">
+
+<p>Tous les GAFAM, et de nombreux acteurs importants de l'informatique professionnelle contribuent.</p>
+<p>De nombreuses entreprises plus petites, et notamment beaucoup des startups du domaine de la technologie partagent la même vision du libre.</p>
+</section><section id="comment-lexpliquer" class="slide level2">
+<h1>Comment l'expliquer ?</h1>
+<p>Les grosses entreprises de l'informatique voient souvent de l'intérêt à publier un logiciel sous licence libre</p>
+<ul>
+<li>Cela améliore l'image de marque auprès des développeurs et des chercheurs.</li>
+<li>Cela permet d'imposer plus facilement et plus rapidement une nouvelle technologie ou une nouvelle approche dans un domaine.</li>
+<li>Cela évite la fragmentation d'un marché, les entreprises et les développeurs indépendants préférant contribuer au logiciel libre et le proposer également à leurs clients que de créer un équivalent.</li>
+</ul>
+</section><section id="état-des-lieux-pour-les-entreprises-utilisatrices" class="slide level2">
+<h1>État des lieux pour les entreprises utilisatrices</h1>
+<h3 id="les-entreprises-citées-précédemment-sont-toutes-dans-le-domaine-de-linformatique.">Les entreprises citées précédemment sont toutes dans le domaine de l'informatique.</h3>
+<p>Qu'en est-il de l'utilisation de logiciel libre par libre par les entreprises d'autres domaines ?</p>
+</section><section id="loin-derrière-dans-certains-domaines" class="slide level2">
+<h1>Loin derrière dans certains domaines</h1>
+<p>Dans certains domaines de l'informatique cruciaux pour les entreprises, quelques logiciels propriétaires dominent leur marché.</p>
+<p>On peut citer</p>
+<ul>
+<li>Les systèmes d'exploitation de bureau. Windows est ultra-majoritaire en entreprise, linux n'est que très rarement utilisé sur les postes de travail en dehors des entreprises de développement logiciel.</li>
+<li>La bureautique, avec la suite Office de Microsoft. LibreOffice arrive loin derrière en termes de parts de marché, en particulier chez les entreprises.</li>
+<li>Les progiciels de gestion. SAP, SAGE, Microsoft et Oracle dominent le marché, et toutes leurs solutions sont propriétaires. Odoo, ERPNext et Dolibarr sont destinés aux plus petites entreprises, et moins utilisés.</li>
+<li>La gestion de document. Sharepoint de Microsoft est très utilisé en entreprise.</li>
+</ul>
+</section><section id="en-position-dominante-dans-dautres" class="slide level2">
+<h1>En position dominante dans d'autres</h1>
+<p>Dans d'autres domaines, aussi cruciaux pour les entreprises, ce sont des logiciels libres qui forment les standards <em>de facto</em>.</p>
+<p>Parfois, ils ne dominent pas le marché mais sont en forte progression.</p>
+</section><section class="slide level2">
+
+<h3 id="bases-de-données">Bases de données</h3>
+<figure>
+<img src="databases.png" alt="trois des cinq systèmes de base de données les plus populaires sont libres. Les bases orientées Big-Data sont libres et en forte progression. Source: db-engines.com" /><figcaption>trois des cinq systèmes de base de données les plus populaires sont libres. Les bases orientées Big-Data sont libres et en forte progression. Source: db-engines.com</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<h3 id="systèmes-dexploitation-pour-serveur">Systèmes d'exploitation pour serveur</h3>
+<p>Selon W3Cook, qui mesure régulièrement les parts de marché des systèmes d'exploitations utilisés sur les serveurs accessibles depuis internet, en mai 2015</p>
+<ul>
+<li><strong>96,6 %</strong> des serveurs les plus populaires sont sous Linux (système <em>copyleft</em>)</li>
+<li><strong>1,7 %</strong> sont sous FreeBSD (système libre sous une licence <em>permissive</em>)</li>
+<li><strong>1,7</strong> sont sous Windows (propriétaire).</li>
+</ul>
+</section><section class="slide level2">
+
+<h3 id="analyse-de-données">Analyse de données</h3>
+<p>Les systèmes de sauvegarde et analyse de grosses quantités de données sont de plus en plus demandés par les entreprises avec le développement de la récolte de données et la baisse des coûts du matériel.</p>
+<p>Dans le domaine de l'analyse de données, <em>R</em> et <em>Python</em> (avec <em>SciPy</em>), tous deux libres, font office de référence.</p>
+<p>Pour la sauvegarde et le traitement <em>Hadoop</em>, <em>Spark</em>, et les <em>bases de données NoSQL</em> libres sont devant leurs concurrents propriétaires.</p>
+</section><section id="comment-lexpliquer-1" class="slide level2">
+<h1>Comment l'expliquer</h1>
+<p>On voit que pour ce qui est de l'utilisation de logiciels, les décisions sont faites de manières très pragmatiques.</p>
+<p>Certains logiciels libres proposent un très bon rapport qualité-prix, et sont produits par de grosses entreprises ou fondations, qui ont les moyens d'assurer leur support</p>
+<ul>
+<li>Les logiciels libres sont très présents dans certains domaines depuis très longtemps.</li>
+<li>Ils sont très populaires dans le domaine de la recherche.</li>
+<li>Ils sont plus utilisés dans le domaine du web et de la gestion de données que dans les applications métier.</li>
+</ul>
+</section></section>
+<section><section id="transition-vers-le-logiciel-libre" class="titleslide slide level1"><h1>Transition vers le logiciel libre</h1></section><section id="raisons" class="slide level2">
+<h1>Raisons</h1>
+<p>Certaines entreprises ou collectivités souhaitent <strong>migrer du logiciel propriétaire vers le logiciel libre</strong>.</p>
+<p>Le plus souvent, pour des raisons économiques, pour <strong>économiser le prix des licences</strong> de logiciels propriétaires, mais aussi souvent pour <strong>s'affranchir de la dépendance</strong> à un éditeur de logiciel particulier, et parfois pour des raisons <strong>éthiques</strong> (migrations au sein d'administrations, de communes, de gouvernement).</p>
+<p>Cela peut aussi être pour des raisons de <strong>sécurité</strong>, un système libre pouvant être entièrement audité en interne.</p>
+<p>On peut citer par exemple la <a href="http://www.lapresse.ca/le-soleil/z/archives/vu-dailleurs/201409/27/01-4804250-france-linux-chez-les-gendarmes.php">migration de la gendarmerie nationale vers linux</a>.</p>
+</section><section id="coûts" class="slide level2">
+<h1>Coûts</h1>
+<p>Le calcul le plus simple à faire est celui du prix des licences économisées.</p>
+<p>Cependant, il faut prendre en compte</p>
+<ul>
+<li>les <strong>coûts de formation</strong></li>
+<li>les différences de <strong>coût de maintenance</strong></li>
+<li>les différences de <strong>coût de support</strong></li>
+</ul>
+</section><section id="risques" class="slide level2">
+<h1>Risques</h1>
+<p>Il convient de prendre en compte les risques liés à tout changement important dans un système d'information.</p>
+<ul>
+<li><p>Baisse de productivité et mécontentement des utilisateurs habitués à une ancienne solution.</p></li>
+<li><p>Risques d'incompatibilités avec les autres systèmes de l'entreprise.</p></li>
+</ul>
+<p>Et pour le logiciel libre en particulier</p>
+<ul>
+<li>Risques liés à la pérennité du logiciel si sa communauté est réduite et ses développeurs bénévoles.</li>
+</ul>
+</section></section>
+<section><section id="conclusion" class="titleslide slide level1"><h1>Conclusion</h1></section><section id="le-logiciel-libre-est-un-défi-pour-les-entreprises" class="slide level2">
+<h1>Le logiciel libre est un défi pour les entreprises</h1>
+<p>Le logiciel libre est aujourd'hui un défi pour les entreprises.</p>
+<p>Il impose de nombreuses contraintes à l'entreprise qui les publie (le modèle de distribution classique devient non-viable), et certaines à celle qui les utilise (selon le logiciel, manque de garantie).</p>
+<p>Cependant, il constitue une manière innovante d'approcher l'industrie logicielle, adaptée par de nombreux grands acteurs, car il permet une <strong>évolution rapide</strong>, une <strong>mutualisation des coûts de développement</strong>, une <strong>baisse des coûts d'acquisition</strong>, et une meilleure <strong>image de marque</strong>.</p>
+<p>C'est certainement pour ces raisons <a href="http://www.open-source-guide.com/Actualites/L-open-source-un-marche-a-6-milliards-d-euros-en-france-d-ici-2020">qu'une étude du cabinet PAC</a> a estimé que le marché de l'open source en France atteindrait <strong>6 milliards d'euros en France en 2020</strong>, alors qu'il était de 4,1 milliards en 2015.</p>
+</section><section id="notes" class="slide level2">
+<h1>Notes</h1>
+<ul>
+<li><p>Cette présentation est elle-même libre, sous licence <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p></li>
+<li><p>La source est disponible en ligne sur Github: <a href="https://github.com/lovasoa/logiciel-libre-et-entreprise">github.com/lovasoa/logiciel-libre-et-entreprise</a></p></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="http://lab.hakim.se/reveal-js//lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 900,
+        height: 700,
+        // Factor of the display size that should remain empty around the content
+        margin: 5.0e-2,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js//plugin/zoom-js/zoom.js', async: true },
+          { src: 'http://lab.hakim.se/reveal-js//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

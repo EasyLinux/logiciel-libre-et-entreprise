@@ -1,0 +1,17 @@
+---
+author: Ophir LOJKINE
+date: Février 2017
+navigation: frame
+theme: black
+tags:
+  - Logiciel libre
+toc-depth: 2
+subtitle: |
+  Le logiciel en entreprise: définition, marché, évolution, enjeux.
+colorlinks: true
+lang: fr-FR
+revealjs-url: "http://lab.hakim.se/reveal-js/"
+width: 900
+height: 700
+margin: 0.05
+---
